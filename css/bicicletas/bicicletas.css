@@ -1,25 +1,26 @@
-.bicicletas-bg{
+.bicicletas-bg {
   background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0);
 }
 
-.bicicletas{
+.bicicletas {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
+  background: url("../../img/dec/top-right.svg") no-repeat top 40px right 20px;
 }
 
-.bicicletas-imagem{
+.bicicletas-imagem {
   display: grid;
 }
 
-.bicicletas-imagem img{
+.bicicletas-imagem img {
   display: grid;
   grid-area: 1/1;
 }
 
-.bicicletas-imagem span{
+.bicicletas-imagem span {
   grid-area: 1/1;
   place-self: start end;
   margin-top: 20px;
@@ -29,22 +30,22 @@
   display: inline-block;
 }
 
-.bicicletas-conteudo{
+.bicicletas-conteudo {
   display: grid;
   grid-template-columns: 1fr auto;
   align-content: start;
 }
 
 .bicicletas h2,
-.bicicletas p{
+.bicicletas p {
   grid-column: 1/-1;
 }
 
-.bicicletas h2{
+.bicicletas h2 {
   margin-bottom: 20px;
 }
 
-.bicicletas h2::before{
+.bicicletas h2::before {
   content: "";
   display: block;
   width: 12px;
@@ -53,34 +54,34 @@
   margin-bottom: 8px;
 }
 
-.bicicletas p{
+.bicicletas p {
   margin-bottom: 32px;
 }
 
-.bicicletas a{
-  place-self: end
+.bicicletas a {
+  place-self: end;
 }
 
-.bicicletas ul{
+.bicicletas ul {
   display: grid;
   gap: 16px;
 }
 
-.bicicletas li{
+.bicicletas li {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.bicicletas-conteudo img{
+.bicicletas-conteudo img {
   width: 24px;
 }
 
-@media (max-width: 800px){
-  .bicicletas-bg{
-    background: var(--cor-11)
+@media (max-width: 800px) {
+  .bicicletas-bg {
+    background: var(--cor-11);
   }
-  .bicicletas{
+  .bicicletas {
     grid-template-columns: 1fr;
     gap: 20px;
     padding-top: 40px;
@@ -88,16 +89,16 @@
   }
 }
 
-@media (max-width: 600px){
-  .bicicletas-conteudo{
+@media (max-width: 600px) {
+  .bicicletas-conteudo {
     grid-template-columns: 1fr;
   }
-  .bicicletas ul{
+  .bicicletas ul {
     grid-template-columns: 1fr 1fr;
     font-size: 1rem;
     margin-bottom: 32px;
   }
-  .bicicletas a{
+  .bicicletas a {
     place-self: start;
   }
 }
