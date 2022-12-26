@@ -27,3 +27,19 @@ function ativarProduto(parametro) {
 parametros.forEach(ativarProduto);
 
 console.log(parametros);
+
+// Perguntas Frequentes
+
+const perguntas = document.querySelectorAll(".perguntas button");
+
+perguntas.forEach((pergunta) => {
+  pergunta.addEventListener("click", (event) => {
+    const pergunta = event.currentTarget;
+    const controls = pergunta.getAttribute("aria-controls");
+    const resposta = document.getElementById(controls);
+
+    resposta.classList.toggle("ativa");
+    const ativa = resposta.classList.contains("ativa");
+    pergunta.setAttribute("aria-expanded", ativa);
+  });
+});
