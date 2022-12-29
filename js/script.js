@@ -25,7 +25,6 @@ function ativarProduto(parametro) {
 parametros.forEach(ativarProduto);
 
 // Perguntas Frequentes
-
 const perguntas = document.querySelectorAll(".perguntas button");
 
 perguntas.forEach((pergunta) => {
@@ -41,7 +40,6 @@ perguntas.forEach((pergunta) => {
 });
 
 // Galeria de bicicleta
-
 const galeria = document.querySelectorAll(".bicicleta-imagens img");
 const galeriaContainer = document.querySelector(".bicicleta-imagens");
 
@@ -54,3 +52,8 @@ galeria.forEach((img) => {
     }
   });
 });
+
+// Animação
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
