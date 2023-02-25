@@ -1,6 +1,6 @@
 # Bikcraft
 
-Este é o código-fonte do projeto Bikcraft, um website fictício para venda de bicicletas artesanais, projeto final do curso de HTML, CSS para Iniciantes da Origamid. O site foi desenvolvido com o objetivo de aplicar boas práticas de programação e design, seguindo as diretrizes do WCAG para acessibilidade, garantindo a compatibilidade com diferentes navegadores e dispositivos e focando na performance do site.
+Este é o código-fonte do projeto Bikcraft, um website fictício para venda de bicicletas personalizadas, projeto final do curso de HTML, CSS para Iniciantes da Origamid. O site foi desenvolvido com o objetivo de aplicar boas práticas de programação e design, seguindo as diretrizes do WCAG para acessibilidade, garantindo a compatibilidade com diferentes navegadores e dispositivos e focando na performance do site.
 
 ## Tecnologias utilizadas
 ## O projeto foi desenvolvido utilizando as seguintes tecnologias:
